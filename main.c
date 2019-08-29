@@ -81,7 +81,7 @@ void USART1_IRQHandler(void) {
   }
 }
 
-
+// Handler para tratamento da interrupcao na USART3
 void USART3_IRQHandler()
 {
   if (USART_GetITStatus(USART3, USART_IT_RXNE) != RESET)
@@ -281,7 +281,7 @@ void send_rtty_packet(void) {
       gpsData.bad_packets,
       flaga);*/
 
-  int packetLength = sprintf(buffer, "$$$$%s", msg);
+  int packetLength = sprintf(buffer, "$$$$%s", msg); //transmite pacote com dados do sensor
   CRC_rtty = gps_CRC16_checksum(buffer + 4);
   sprintf(buffer + packetLength, "*%04X\n", CRC_rtty & 0xffff);
   rtty_buf = buffer;
