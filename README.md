@@ -7,7 +7,7 @@ Principais Implementações
 Informações Adicionais
 - Video: [Comunicação Vaisala RS41 com SOC ARM](https://www.youtube.com/watch?v=8G1iGRDWAF8)
 - Video: [Teste Radiosonda](https://www.youtube.com/watch?v=w0fxCEc3AZw)
-- [Radiosonda Metereológica Vaisala RS41 – Firmware Alternativo])https://fazerlab.wordpress.com/2019/08/29/radiosonda-metereologica-vaisala-rs41-firmware-alternativo/)
+- [Radiosonda Metereológica Vaisala RS41 – Firmware Alternativo](https://fazerlab.wordpress.com/2019/08/29/radiosonda-metereologica-vaisala-rs41-firmware-alternativo/)
 
 # RS41HUP (Ham Use Project)
 Firmware for RS41 for HAM use<br>
