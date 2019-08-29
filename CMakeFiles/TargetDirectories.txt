@@ -1,0 +1,4 @@
+/media/sf_compartilhada/RS41HUPint/CMakeFiles/rebuild_cache.dir
+/media/sf_compartilhada/RS41HUPint/CMakeFiles/edit_cache.dir
+/media/sf_compartilhada/RS41HUPint/CMakeFiles/RS41HUPint.elf.dir
+/media/sf_compartilhada/RS41HUPint/CMakeFiles/program.dir
