@@ -86,7 +86,7 @@ void USART3_IRQHandler()
 {
   if (USART_GetITStatus(USART3, USART_IT_RXNE) != RESET)
   {	 
-	  rxbuf[rxbuf_pos++] = USART_ReceiveData(USART3);		      		   
+      rxbuf[rxbuf_pos++] = USART_ReceiveData(USART3);		      		   
       if ((rxbuf[rxbuf_pos-1] == '\n') && rxbuf_pos != 0) 	 	       
          {				
            int tamanho = (strlen(rxbuf))-1;
