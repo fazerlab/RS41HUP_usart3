@@ -2,7 +2,7 @@
 Principais Implementações
 - Habilitação de Interrupção para USART3 no arquivo em ```init.c``` 
 -  Handler para tratamento da interrupcao na USART3 em ```main.c``` 
-- Comunicação com placa STM32 (Blue Pill) com sensor BMP280 - firmware
+- Comunicação com placa STM32 (Blue Pill) com sensor BMP280 - [firmware](https://github.com/fazerlab/RS41HUP_usart3/tree/master/bmp280i2c)
 
 # RS41HUP (Ham Use Project)
 Firmware for RS41 for HAM use<br>
