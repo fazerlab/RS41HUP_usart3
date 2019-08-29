@@ -89,13 +89,12 @@ void USART3_IRQHandler()
 	  rxbuf[rxbuf_pos++] = USART_ReceiveData(USART3);		      		   
       if ((rxbuf[rxbuf_pos-1] == '\n') && rxbuf_pos != 0) 	 	       
          {				
-	    	int tamanho = (strlen(rxbuf))-1;
-			strncpy(msg, rxbuf,tamanho);
-		    rxbuf[0]=0;
-			rxbuf_pos = 0;
-			USART_SendData(USART3, '!');
-				
-	     }
+           int tamanho = (strlen(rxbuf))-1;
+           strncpy(msg, rxbuf,tamanho);
+           rxbuf[0]=0;
+           rxbuf_pos = 0;
+           USART_SendData(USART3, '!');				
+         }
   }
 }
 
